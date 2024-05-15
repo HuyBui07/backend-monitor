@@ -1,0 +1,17 @@
+{
+  "name": "database-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.9.7",
+    "node-cron": "^3.0.3"
+  }
+}
